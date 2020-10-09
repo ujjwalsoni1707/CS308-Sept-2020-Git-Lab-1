@@ -7,7 +7,7 @@ positive number. */
 
 int main(int argc, char* argv[]) {
 	
-	# Commenting in Main Function.....
+	 //Commenting in Main Function.....
 	if (argc != 2) {
 		printf("Usage: sqrt input\n\n");
 		exit(-1);
