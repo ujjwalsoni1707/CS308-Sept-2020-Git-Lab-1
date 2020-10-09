@@ -14,8 +14,13 @@ int main(int argc, char* argv[]) {
 	}
 
 	int input = atoi(argv[1]);
-	if (input<0) {printf("Input Error. Please input positive number only!\n");exit(-1);}
+	if (input<0) {
+		input= input * (-1);
+		printf("Sqrt of %d is %fi\n",input,sqrt(input));	
+	}
+	else{
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
+	}
 	printf("End of program. Exiting");
 	
 	return(0);
