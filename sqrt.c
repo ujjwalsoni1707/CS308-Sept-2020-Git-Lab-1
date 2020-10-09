@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 		printf("Sqrt of %d is %fi\n",input,sqrt(input));	
 	}
 	else{
-	printf("Sqrt of %d is %f\n",input,sqrt(input));
+	printf("Sqrt Of %d is %f\n",input,sqrt(input));
 	}
 	printf("End of program. Exiting");
 	
